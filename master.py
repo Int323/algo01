@@ -4,9 +4,9 @@ import numpy as np
 import talib
 import alpaca_trade_api as tradeapi
 
-api = tradeapi.REST(key_id=<your key id>,secret_key=<your secret key>)
+api = tradeapi.REST(key_id='PKX2EOU5XWX3SZE6N7T1' ,secret_key= '2BBemjKjJ3PDbcspSdY8wwXwV/XR3mutaZ7GRRVc')
 
-barTimeframe = "1H" # 1Min, 5Min, 15Min, 1H, 1D
+barTimeframe = "1Min" # 1Min, 5Min, 15Min, 1H, 1D
 assetsToDownload = ["SPY","MSFT","AAPL","NFLX"]
 startDate = "2017-01-01T00:00:00.000Z" # Start date for the market data in ISO8601 format
 
